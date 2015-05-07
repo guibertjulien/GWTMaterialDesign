@@ -12,12 +12,15 @@
 	</ui:style>
 	<g:HTMLPanel>
 		
-		<m:MaterialRow>
-			<m:MaterialColumn grid="s12 m12">
-				<m:MaterialTitle title="Get the jar" description="Download the jar by hand and put it in you app classpath"/>
-				<m:MaterialButton ui:field="btnDownloadJar" text="Download" color="blue" icon="mdi-file-file-download right" addStyleNames="{style.btn}" />
-			</m:MaterialColumn>
-		</m:MaterialRow>
+		<m:MaterialTitle title="Maven Repository" description="We release a maven repository in order to improve the productivity of GWT Material."/>
+		<m:MaterialLink ui:field="btnMaven"  text="http://mvnrepository.com/artifact/com.github.gwtmaterialdesign/gwt-material." icon="mdi-content-link" textColor="blue"/>
+		<pre>
+&lt;dependency>
+	&lt;groupId>com.github.gwtmaterialdesign&lt;/groupId>
+	&lt;artifactId>gwt-material&lt;/artifactId>
+	&lt;version>1.3-SNAPSHOT&lt;/version>
+&lt;/dependency>
+		</pre>
 		
 		<m:MaterialTitle title="Configuring your module" description="You will have to configure your App.gwt.xml file to inherit the Gwt Material Widget widget library. You can do it like this:"/>
 		<pre>
@@ -34,14 +37,6 @@
 <span class="tag">&lt;m:MaterialButton</span> <span class="attr">text</span>="Button" <span class="attr">color</span>="blue" <span class=".attr">display</span>="inline-block" <span class="attr">icon</span>="mdi-action-account-circle" <span class="attr">iconPosition</span>="left" <span class="tag">/></span>
 		</pre>
 		
-		<m:MaterialTitle title="Maven Repository" description="We release a maven repository in order to improve the productivity of GWT Material."/>
-		<m:MaterialLink ui:field="btnMaven"  text="http://mvnrepository.com/artifact/com.github.gwtmaterialdesign/gwt-material." icon="mdi-content-link" textColor="blue"/>
-		<pre>
-&lt;dependency>
-	&lt;groupId>com.github.gwtmaterialdesign&lt;/groupId>
-	&lt;artifactId>gwt-material&lt;/artifactId>
-	&lt;version>1.3-SNAPSHOT&lt;/version>
-&lt;/dependency>
-		</pre>
+		
 	</g:HTMLPanel>
 </ui:UiBinder> 

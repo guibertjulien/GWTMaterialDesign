@@ -11,9 +11,6 @@ import com.google.gwt.user.client.ui.RootPanel;
 public class Gwt_material_design_demo implements EntryPoint {
 	
 	public void onModuleLoad() {
-		
 		RootPanel.get().add(new MaterialDemo());
-		
-		
 	}
 }

@@ -22,12 +22,6 @@ public class MaterialGettingStarted extends Composite{
 	public MaterialGettingStarted() {
 		initWidget(uiBinder.createAndBindUi(this));
 	}
-
-
-	@UiHandler("btnDownloadJar")
-	void onDownloadJar(ClickEvent e){
-		Window.open(IMaterialConstants.DOWNLOAD_GWT_MATERIAL, "_blank", "");
-	}
 	
 	@UiHandler("btnMaven")
 	void onGoToMaven(ClickEvent e){
