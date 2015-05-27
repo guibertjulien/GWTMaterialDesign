@@ -55,6 +55,16 @@ public class MaterialDemo extends Composite {
 		Window.open(IMaterialConstants.LINK_GITTER_CHAT, "", "");
 	}
 	
+	@UiHandler("btnGithub")
+	void onGithub(ClickEvent e){
+		Window.open(IMaterialConstants.GITHUB_LINK, "", "");
+	}
+	
+	@UiHandler("gettingStartedPanel")
+	void onGettingStarted(ClickEvent e){
+		changeNav(Place.gettingstarted);
+	}
+	
 	private void changeNav(Place place){
 		navBar.hide();
 		Window.scrollTo(0, 0);
