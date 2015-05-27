@@ -9,5 +9,6 @@ public interface IMaterialConstants {
 	public static final String LINK_WEATHER_ICONS = "http://gwt-material.appspot.com/bin/weather";
 	public static final String MAVEN_LINK = "http://mvnrepository.com/artifact/com.github.gwtmaterialdesign/gwt-material";
 	public static final String GITHUB_LINK = "https://github.com/GwtMaterialDesign/gwt-material";
-	
+	public static final String TEMPLATE_STARTER_LINK = "http://gwt-material-starter.appspot.com";
+	public static final String TEMPLATE_STARTER_SOURCE = "http://gwt-material.appspot.com/bin/HomePanel.ui.xml";
 }

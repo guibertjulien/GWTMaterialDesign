@@ -28,4 +28,14 @@ public class MaterialGettingStarted extends Composite{
 		Window.open(IMaterialConstants.MAVEN_LINK, "_blank", "");
 	}
 	
+	@UiHandler("btnDemoStarter")
+	void onDemoStarter(ClickEvent e){
+		Window.open(IMaterialConstants.TEMPLATE_STARTER_LINK, "_blank", "");
+	}
+	
+	@UiHandler("btnSourceStarter")
+	void onSourceStarter(ClickEvent e){
+		Window.open(IMaterialConstants.TEMPLATE_STARTER_SOURCE, "_blank", "");
+	}
+	
 }	

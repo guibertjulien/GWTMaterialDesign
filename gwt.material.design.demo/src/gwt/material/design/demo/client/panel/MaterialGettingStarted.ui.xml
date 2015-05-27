@@ -37,6 +37,15 @@
 <span class="tag">&lt;m:MaterialButton</span> <span class="attr">text</span>="Button" <span class="attr">color</span>="blue" <span class=".attr">display</span>="inline-block" <span class="attr">icon</span>="mdi-action-account-circle" <span class="attr">iconPosition</span>="left" <span class="tag">/></span>
 		</pre>
 		
+		<m:MaterialRow>
+			<m:MaterialColumn grid="s12 m6 l6">
+				<m:MaterialTitle title="Starter Template"  description="You can copy and paste the UI Binder Code of this starter template into your app to know how GWT Material works with basic Nav Bar, Side Bar, Fixed Footer, and Container works."/>
+				<m:MaterialImage resource="{res.starter}"  type="materialboxed"/>
+				<m:MaterialButton ui:field="btnDemoStarter" text="Demo" icon="mdi-action-search" iconPosition="right"/>
+				<m:MaterialButton ui:field="btnSourceStarter" text="Source" icon="mdi-file-file-download" iconPosition="right"/>
+			</m:MaterialColumn>
+		</m:MaterialRow>
+		
 		
 	</g:HTMLPanel>
 </ui:UiBinder> 
