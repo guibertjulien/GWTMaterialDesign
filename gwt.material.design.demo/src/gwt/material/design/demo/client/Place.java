@@ -11,12 +11,14 @@ import gwt.material.design.demo.client.panel.MaterialFooterPanel;
 import gwt.material.design.demo.client.panel.MaterialForms;
 import gwt.material.design.demo.client.panel.MaterialGettingStarted;
 import gwt.material.design.demo.client.panel.MaterialGrid;
+import gwt.material.design.demo.client.panel.MaterialHelper;
 import gwt.material.design.demo.client.panel.MaterialHome;
 import gwt.material.design.demo.client.panel.MaterialLoaders;
 import gwt.material.design.demo.client.panel.MaterialMedia;
 import gwt.material.design.demo.client.panel.MaterialNavigations;
 import gwt.material.design.demo.client.panel.MaterialShadow;
 import gwt.material.design.demo.client.panel.MaterialShowcase;
+import gwt.material.design.demo.client.panel.MaterialTable;
 import gwt.material.design.demo.client.panel.MaterialTabsPanel;
 import gwt.material.design.demo.client.panel.MaterialTheme;
 import gwt.material.design.demo.client.panel.MaterialTransitions;
@@ -314,21 +316,36 @@ public enum Place {
 		}
 	},
 	
-	gettingStarted{
+	table {
+		@Override
+		public String getTitle() {
+			return "Table";
+		}
+		@Override
+		public String getDescription() {
+			return "Tables are a nice way to organize a lot of data. We provide a few utility classes to help you style your table as easily as possible. In addition, to improve mobile experience, all tables on mobile-screen widths are centered automatically.";
+		}
+		@Override
+		public Widget getContent() {
+			return new MaterialTable();
+		}
+	},
+	
+	helper{
 
 		@Override
 		public String getTitle() {
-			return "Getting Started";
+			return "Helper";
 		}
 
 		@Override
 		public String getDescription() {
-			return "Learn how to easily start using GWT Material Design in your app.";
+			return "";
 		}
 
 		@Override
 		public Widget getContent() {
-			return new MaterialGettingStarted();
+			return new MaterialHelper();
 		}
 		
 	};

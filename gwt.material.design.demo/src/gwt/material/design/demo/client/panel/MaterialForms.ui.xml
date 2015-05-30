@@ -35,9 +35,9 @@
 		</m:MaterialListBox>
 		<pre>
 <span class="tag">&lt;m:MaterialListBox</span><span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 1<span class="tag">&lt;item</span><span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 2<span class="tag">&lt;item</span><span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 3<span class="tag">&lt;item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 1<span class="tag">&lt;/item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 2<span class="tag">&lt;/item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 3<span class="tag">&lt;/item</span><span class="tag">></span>
 <span class="tag">&lt;/m:MaterialListBox</span><span class="tag">></span>
 		</pre>
 		
@@ -49,9 +49,9 @@
 		</m:MaterialListBox>
 		<pre>
 <span class="tag">&lt;m:MaterialListBox</span> <span class="attr">old</span>="true" <span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 1<span class="tag">&lt;item</span><span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 2<span class="tag">&lt;item</span><span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 3<span class="tag">&lt;item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 1<span class="tag">&lt;/item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 2<span class="tag">&lt;/item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 3<span class="tag">&lt;/item</span><span class="tag">></span>
 <span class="tag">&lt;/m:MaterialListBox</span><span class="tag">></span>
 		</pre>
 		
@@ -68,14 +68,14 @@
 		</m:MaterialListBox>
 		<pre>
 <span class="tag">&lt;m:MaterialListBox</span>  <span class="attr">disabled</span>="true" <span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 1<span class="tag">&lt;item</span><span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 2<span class="tag">&lt;item</span><span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 3<span class="tag">&lt;item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 1<span class="tag">&lt;/item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 2<span class="tag">&lt;/item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 3<span class="tag">&lt;/item</span><span class="tag">></span>
 <span class="tag">&lt;/m:MaterialListBox</span><span class="tag">></span>
 <span class="tag">&lt;m:MaterialListBox</span> <span class="attr">old</span>="true"  <span class="attr">disabled</span>="true" <span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 1<span class="tag">&lt;item</span><span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 2<span class="tag">&lt;item</span><span class="tag">></span>
-	<span class="tag">&lt;item</span><span class="tag">></span>Option 3<span class="tag">&lt;item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 1<span class="tag">&lt;/item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 2<span class="tag">&lt;/item</span><span class="tag">></span>
+	<span class="tag">&lt;item</span><span class="tag">></span>Option 3<span class="tag">&lt;/item</span><span class="tag">></span>
 <span class="tag">&lt;/m:MaterialListBox</span><span class="tag">></span>
 		</pre>
 
