@@ -12,5 +12,6 @@ public class Gwt_material_starter implements EntryPoint {
 
 	public void onModuleLoad() {
 		RootPanel.get().add(new HomePanel());
+		
 	}
 }
