@@ -13,6 +13,7 @@ import gwt.material.design.demo.client.panel.MaterialGettingStarted;
 import gwt.material.design.demo.client.panel.MaterialGrid;
 import gwt.material.design.demo.client.panel.MaterialHelper;
 import gwt.material.design.demo.client.panel.MaterialHome;
+import gwt.material.design.demo.client.panel.MaterialIcons;
 import gwt.material.design.demo.client.panel.MaterialLoaders;
 import gwt.material.design.demo.client.panel.MaterialMedia;
 import gwt.material.design.demo.client.panel.MaterialNavigations;
@@ -346,6 +347,42 @@ public enum Place {
 		@Override
 		public Widget getContent() {
 			return new MaterialHelper();
+		}
+		
+	},
+	gettingStarted{
+
+		@Override
+		public String getTitle() {
+			return "Getting Started";
+		}
+
+		@Override
+		public String getDescription() {
+			return "Learn how to easily start using GWT Material Design in your app.";
+		}
+
+		@Override
+		public Widget getContent() {
+			return new MaterialGettingStarted();
+		}
+		
+	},
+	icons{
+
+		@Override
+		public String getTitle() {
+			return "Icons";
+		}
+
+		@Override
+		public String getDescription() {
+			return "We have included 740 Material Design Icons courtesy of Google. You can download them directly from the Material Design specs. The icon font was made and packed by Bootstrap Material Design.";
+		}
+
+		@Override
+		public Widget getContent() {
+			return new MaterialIcons();
 		}
 		
 	};

@@ -9,7 +9,6 @@
 		}
 	</ui:style>
 	<g:HTMLPanel>
-		
 		<m:MaterialTitle title="TextBox" description="Text fields allow user input. The border should light up simply and clearly indicating which field the user is currently editing. "/>
 		<m:MaterialTextBox placeholder="First Name" />
 		<m:MaterialTextBox placeholder="Email" icon="mdi-action-account-circle" />

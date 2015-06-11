@@ -38,4 +38,9 @@ public class MaterialGettingStarted extends Composite{
 		Window.open(IMaterialConstants.TEMPLATE_STARTER_SOURCE, "_blank", "");
 	}
 	
+	@UiHandler("btnDownloadGWTMaterial")
+	void onDownloadGWTMaterial(ClickEvent e){
+		Window.open(IMaterialConstants.DOWNLOAD_GWT_MATERIAL, "_blank", "");
+	}
+	
 }	

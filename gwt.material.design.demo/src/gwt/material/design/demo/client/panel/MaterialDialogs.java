@@ -30,16 +30,21 @@ public class MaterialDialogs extends Composite {
 	
 	@UiHandler("btnModal")
 	void onModal(ClickEvent e){
-		MaterialModal.showModal(true, new ModalContent(), TYPE.DEFAULT);
+		MaterialModal.showModal(new ModalContent(), TYPE.DEFAULT);
 	}
 	
 	@UiHandler("btnMoadalBottomSheets")
 	void onModalBottom(ClickEvent e){
-		MaterialModal.showModal(true, new ModalContent(), TYPE.BOTTOM_SHEET);
+		MaterialModal.showModal(new ModalContent(), TYPE.BOTTOM_SHEET);
 	}
 	
 	@UiHandler("btnModalFixFooter")
 	void onModalFix(ClickEvent e){
-		MaterialModal.showModal(true, new ModalContent(), TYPE.FIXED_FOOTER);
+		MaterialModal.showModal(new ModalContent(), TYPE.FIXED_FOOTER);
+	}
+	
+	@UiHandler("btnWindow")
+	void onWindowModal(ClickEvent e){
+		MaterialModal.showWindow(new ModalContent(), TYPE.WINDOW, "Window Title", "blue");
 	}
 }

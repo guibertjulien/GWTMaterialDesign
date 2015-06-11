@@ -52,34 +52,34 @@
 				    <m:MaterialLabel text="Title" fontSize="1.5"/>
 				    <m:MaterialLabel text="First Line"/>
 				    <m:MaterialLabel text="Second Line"/>
-				    <m:MaterialIcon icon="mdi-action-grade" textColor="orange"/>
+				    <m:MaterialIcon icon="mdi-action-grade" color="orange"/>
 				</m:MaterialPanel>
 			</m:avatar>
 			<m:avatar>
 				<m:MaterialPanel>
-					<m:MaterialIcon icon="mdi-file-folder" type="avatar" color="grey" shape="circle"/>
+					<m:MaterialIcon icon="mdi-file-folder" type="avatar" background="grey" shape="circle"/>
 				    <m:MaterialLabel text="Title" fontSize="1.5"/>
 				    <m:MaterialLabel text="First Line"/>
 				    <m:MaterialLabel text="Second Line"/>
-				    <m:MaterialIcon icon="mdi-action-grade" textColor="orange"/>
+				    <m:MaterialIcon icon="mdi-action-grade" color="orange"/>
 				</m:MaterialPanel>
 			</m:avatar>
 			<m:avatar>
 				<m:MaterialPanel>
-					<m:MaterialIcon icon="mdi-action-assessment" type="avatar" color="green" shape="circle"/>
+					<m:MaterialIcon icon="mdi-action-assessment" type="avatar" background="green" shape="circle"/>
 				    <m:MaterialLabel text="Title" fontSize="1.5"/>
 				    <m:MaterialLabel text="First Line"/>
 				    <m:MaterialLabel text="Second Line"/>
-				    <m:MaterialIcon icon="mdi-action-grade" textColor="orange"/>
+				    <m:MaterialIcon icon="mdi-action-grade" color="orange"/>
 				</m:MaterialPanel>
 			</m:avatar>
 			<m:avatar>
 				<m:MaterialPanel>
-					<m:MaterialIcon icon="mdi-av-play-arrow" type="avatar" color="red" shape="circle"/>
+					<m:MaterialIcon icon="mdi-av-play-arrow" type="avatar" background="red" shape="circle"/>
 				    <m:MaterialLabel text="Title" fontSize="1.5"/>
 				    <m:MaterialLabel text="First Line"/>
 				    <m:MaterialLabel text="Second Line"/>
-				    <m:MaterialIcon icon="mdi-action-grade" textColor="orange"/>
+				    <m:MaterialIcon icon="mdi-action-grade" color="orange"/>
 				</m:MaterialPanel>
 			</m:avatar>
 		</m:MaterialCollection>
