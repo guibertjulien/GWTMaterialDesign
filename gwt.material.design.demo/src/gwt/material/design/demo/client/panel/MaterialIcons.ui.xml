@@ -1,0 +1,89 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:m="urn:import:gwt.material.design.client.ui"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+	
+	</ui:style>
+	<m:MaterialPanel>
+		<m:MaterialTitle title="Usage" description="Using MaterialIcon Widget you can easily make it by adding the lines below. Just set the icon attribute and indicate which icon you want to display. Please refer below about the list of icon."/>
+		<m:MaterialIcon icon="mdi-action-3d-rotation" />
+		<pre>
+&lt;m:MaterialIcon icon="mdi-action-3d-rotation" />
+		</pre>
+		
+		<m:MaterialTitle title="Sizes" description="To control the size of the icon, just set size attribute in your MaterialIcon widget."/>
+		<m:MaterialRow addStyleNames="valign-wrapper">
+			<m:MaterialColumn grid="s4 m2" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-polymer" size="tiny"/>
+				<m:MaterialLabel text="Tiny"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s4 m2" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-polymer" size="small"/>
+				<m:MaterialLabel text="Small"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s4 m2" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-polymer" size="medium"/>
+				<m:MaterialLabel text="Medium"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s4 m2" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-polymer" size="large"/>
+				<m:MaterialLabel text="Large"/>
+			</m:MaterialColumn>
+		</m:MaterialRow>
+		
+		<pre>
+&lt;m:MaterialIcon icon="mdi-action-polymer" size="tiny"/>
+&lt;m:MaterialIcon icon="mdi-action-polymer" size="small"/>
+&lt;m:MaterialIcon icon="mdi-action-polymer" size="medium"/>
+&lt;m:MaterialIcon icon="mdi-action-polymer" size="large"/>
+		</pre>
+		
+		<m:MaterialTitle title="Icon inside MaterialLink" description="You can add in your material link an icon instance by adding icon attribute"/>
+		<m:MaterialLink fontSize="2" text="I love Material Design" textColor="red" icon="mdi-action-favorite" iconPosition="left"/>
+		
+		<pre>
+&lt;m:MaterialLink fontSize="2" text="I love Material Design" textColor="red" icon="mdi-action-favorite" iconPosition="left"/>
+		</pre>
+		
+		<m:MaterialTitle title="Action"/>
+		<m:MaterialRow>
+			<m:MaterialColumn grid="s6 m3" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-3d-rotation" size="medium"/>
+				<m:MaterialLabel text="mdi-action-3d-rotation"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s6 m3" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-accessibility" size="medium"/>
+				<m:MaterialLabel text="mdi-action-accessibility"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s6 m3" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-account-balance" size="medium"/>
+				<m:MaterialLabel text="mdi-action-account-balance"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s6 m3" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-account-balance-wallet" size="medium"/>
+				<m:MaterialLabel text="mdi-action-account-balance-wallet"/>
+			</m:MaterialColumn>
+		</m:MaterialRow>
+		
+		<m:MaterialRow>
+			<m:MaterialColumn grid="s6 m3" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-account-box" size="medium"/>
+				<m:MaterialLabel text="mdi-action-account-box"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s6 m3" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-account-child" size="medium"/>
+				<m:MaterialLabel text="mdi-action-account-child"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s6 m3" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-account-circle" size="medium"/>
+				<m:MaterialLabel text="mdi-action-account-circle"/>
+			</m:MaterialColumn>
+			<m:MaterialColumn grid="s6 m3" addStyleNames="center-align">
+				<m:MaterialIcon icon="mdi-action-add-shopping-cart" size="medium"/>
+				<m:MaterialLabel text="mdi-action-add-shopping-cart"/>
+			</m:MaterialColumn>
+		</m:MaterialRow>
+		<!-- Put your code below -->
+	</m:MaterialPanel>
+</ui:UiBinder> 
