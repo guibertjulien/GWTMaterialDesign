@@ -1,5 +1,6 @@
 package gwt.material.design.demo.client;
 
+import gwt.material.design.client.ui.MaterialScrollspy;
 import gwt.material.design.demo.client.panel.MaterialBadges;
 import gwt.material.design.demo.client.panel.MaterialButtonPanel;
 import gwt.material.design.demo.client.panel.MaterialCard;
@@ -17,6 +18,7 @@ import gwt.material.design.demo.client.panel.MaterialIcons;
 import gwt.material.design.demo.client.panel.MaterialLoaders;
 import gwt.material.design.demo.client.panel.MaterialMedia;
 import gwt.material.design.demo.client.panel.MaterialNavigations;
+import gwt.material.design.demo.client.panel.MaterialScrollspyPanel;
 import gwt.material.design.demo.client.panel.MaterialShadow;
 import gwt.material.design.demo.client.panel.MaterialShowcase;
 import gwt.material.design.demo.client.panel.MaterialTable;
@@ -383,6 +385,24 @@ public enum Place {
 		@Override
 		public Widget getContent() {
 			return new MaterialIcons();
+		}
+		
+	},
+	scrollspy{
+
+		@Override
+		public String getTitle() {
+			return "ScrollSpy";
+		}
+
+		@Override
+		public String getDescription() {
+			return "Scrollspy is a jQuery plugin that tracks certain elements and which element the user's screen is currently centered on. Our main demo of this is our table of contents on every documentation page to the right. Clicking on these links will also scroll the page to that element.";
+		}
+
+		@Override
+		public Widget getContent() {
+			return new MaterialScrollspyPanel();
 		}
 		
 	};
