@@ -6,11 +6,6 @@
 	
 	</ui:style>
 	<g:HTMLPanel>
-		<m:MaterialTitle title="Links"/>
-		<m:MaterialLink text="First" icon="mdi-action-polymer" iconPosition="left">
-			<m:badge><m:MaterialBadge color="blue" text="1 new" /></m:badge>
-		</m:MaterialLink>
-		
 		<m:MaterialTitle title="Collections"/>
 		<m:MaterialCollection>
 			<m:item>
