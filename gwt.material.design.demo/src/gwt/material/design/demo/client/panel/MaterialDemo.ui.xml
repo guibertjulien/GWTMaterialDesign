@@ -73,7 +73,11 @@
 										<m:ListItem><m:MaterialLink href="#footer" text="Footer" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#loaders" text="Loaders" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#media" text="Media" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#navigations" text="NavBar" textColor="blue"/></m:ListItem>
+										<m:ListItem>
+											<m:MaterialLink href="#navigations" text="NavBar" textColor="blue">
+												<m:badge><m:MaterialBadge text="Update" color="blue"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
 										<m:ListItem>
 											<m:MaterialLink href="#scrollspy" text="Scrollspy" textColor="blue">
 												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
@@ -90,14 +94,13 @@
 								<m:header><m:MaterialLink text="Style and Layout" icon="mdi-image-color-lens" textColor="blue"/></m:header>
 								<m:content>
 									<m:UnorderedList>
-										<m:ListItem><m:MaterialLink href="#colors" text="Colors" textColor="blue"/></m:ListItem>
+										
+										<m:ListItem>
+											<m:MaterialLink href="#colors" text="Colors" textColor="blue">
+												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
 										<m:ListItem><m:MaterialLink href="#grid" text="Grid" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#helper" text="Helper" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#icons" text="Icons" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#colors" text="Colors" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#shadow" text="Shadow" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#table" text="Table" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#theme" text="Theming" textColor="blue"/></m:ListItem>
 										<m:ListItem>
 											<m:MaterialLink href="#helper" text="Helper" textColor="blue">
 												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
