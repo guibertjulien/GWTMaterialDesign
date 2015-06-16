@@ -90,6 +90,7 @@
 								<m:header><m:MaterialLink text="Style and Layout" icon="mdi-image-color-lens" textColor="blue"/></m:header>
 								<m:content>
 									<m:UnorderedList>
+										<m:ListItem><m:MaterialLink href="#colors" text="Colors" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#grid" text="Grid" textColor="blue"/></m:ListItem>
 										<m:ListItem>
 											<m:MaterialLink href="#helper" text="Helper" textColor="blue">
@@ -98,7 +99,7 @@
 										</m:ListItem>
 										<m:ListItem>
 											<m:MaterialLink href="#icons" text="Icons" textColor="blue">
-												<m:badge><m:MaterialBadge text="On Going" color="red"/></m:badge>
+												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
 											</m:MaterialLink>
 										</m:ListItem>
 										<m:ListItem>
