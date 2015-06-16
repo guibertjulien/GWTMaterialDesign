@@ -22,8 +22,8 @@
 		.pointer{
 			cursor: pointer;
 		}
-		header, main, footer {
-		    padding-left: 230px;
+		main, footer {
+		    padding-left: 250px;
 		}
 		.footer{
 			margin-top: -50px !important;
@@ -37,10 +37,16 @@
 		}
 	</ui:style>	
 	<g:HTMLPanel >
-			<m:MaterialNavBar ui:field="navBar" sideBar="fixed" sideBarWidth="230" color="blue darken-1"  align="right" >
+			<m:MaterialNavBar ui:field="navBar" sideBar="fixed" sideBarWidth="250" color="blue darken-1"  align="right" >
 				<m:sidebaritem><m:MaterialImage resource="{res.ic_gwt_logo}" addStyleNames="{style.logo}"/></m:sidebaritem>
-				<m:sidebaritem><m:MaterialLink href="#about" iconPosition="left" icon="mdi-action-info-outline" text="About" textColor="blue"  /></m:sidebaritem>
-				<m:sidebaritem><m:MaterialLink href="#gettingStarted" iconPosition="left" icon="mdi-file-cloud-download" text="Getting Started" textColor="blue"  /></m:sidebaritem>
+				<m:sidebaritem>
+					<m:MaterialLink href="#about" iconPosition="left" icon="mdi-action-info-outline" text="About" textColor="blue"  />
+				</m:sidebaritem>
+				<m:sidebaritem>
+					<m:MaterialLink href="#gettingStarted" iconPosition="left" icon="mdi-file-cloud-download" text="Getting Started" textColor="blue"  >
+						<m:badge><m:MaterialBadge text="1.3.2" color="blue"/></m:badge>
+					</m:MaterialLink>
+				</m:sidebaritem>
 				<m:sidebaritem>
 					<m:MaterialCollapsible>
 						<m:item>
@@ -48,19 +54,31 @@
 								<m:header><m:MaterialLink  text="Components" icon="mdi-action-view-quilt" textColor="blue"/></m:header>
 								<m:content>
 									<m:UnorderedList>
-										<m:ListItem><m:MaterialLink href="#badges" text="Badges" textColor="blue"/></m:ListItem>
+										<m:ListItem>
+											<m:MaterialLink href="#badges" text="Badges" textColor="blue">
+												<m:badge><m:MaterialBadge text="Update" color="blue"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
 										<m:ListItem><m:MaterialLink href="#buttons" text="Buttons" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#cards" text="Cards" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#collapsibles" text="Collapsible" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#collections" text="Collections" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#dialogs" text="Dialogs" textColor="blue"/></m:ListItem>
+										<m:ListItem>
+											<m:MaterialLink href="#dialogs" text="Dialogs" textColor="blue">
+												<m:badge><m:MaterialBadge text="Update" color="blue"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
 										<m:ListItem><m:MaterialLink href="#dropdowns" text="Dropdown" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#forms" text="Forms" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#footer" text="Footer" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#loaders" text="Loaders" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#media" text="Media" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#navigations" text="NavBar" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#scrollspy" text="Scrollspy" textColor="blue"/></m:ListItem>
+										<m:ListItem>
+											<m:MaterialLink href="#scrollspy" text="Scrollspy" textColor="blue">
+												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
 										<m:ListItem><m:MaterialLink href="#tabs" text="Tabs" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#transition" text="Transitions" textColor="blue"/></m:ListItem>
 									</m:UnorderedList>
@@ -79,6 +97,31 @@
 										<m:ListItem><m:MaterialLink href="#shadow" text="Shadow" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#table" text="Table" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#theme" text="Theming" textColor="blue"/></m:ListItem>
+										<m:ListItem>
+											<m:MaterialLink href="#helper" text="Helper" textColor="blue">
+												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
+										<m:ListItem>
+											<m:MaterialLink href="#icons" text="Icons" textColor="blue">
+												<m:badge><m:MaterialBadge text="On Going" color="red"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
+										<m:ListItem>
+											<m:MaterialLink href="#shadow" text="Shadow" textColor="blue">
+												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
+										<m:ListItem>
+											<m:MaterialLink href="#table" text="Table" textColor="blue">
+												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
+										<m:ListItem>
+											<m:MaterialLink href="#theme" text="Theming" textColor="blue">
+												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
+											</m:MaterialLink>
+										</m:ListItem>
 									</m:UnorderedList>
 								</m:content>
 							</m:MaterialCollapsibleItem>
@@ -95,7 +138,11 @@
 			<m:MaterialContainer>
 				<m:MaterialTopNav ui:field="topNav"  color="blue" textColor="white">
 					<m:child>
-						<m:MaterialButton ui:field="gettingStartedPanel" text="Get Started" size="large" color="blue lighten-2" addStyleNames="{style.btnGettingStarted}"/>
+						
+						<m:MaterialPanel>
+							<m:MaterialButton ui:field="gettingStartedPanel" text="Get Started" size="large" color="blue lighten-2" addStyleNames="{style.btnGettingStarted}"/>
+							<a href="http://www.revenuehits.com/lps/v41/?ref=@RH@RcJeqBZ7K79-rgdLXL7cQQ" target="_blank"><img src="http://revenuehits.com/publishers/media/img/v1/110x32_v1.gif" border="0"/></a>
+						</m:MaterialPanel>
 					</m:child>
 						
 				</m:MaterialTopNav>

@@ -51,6 +51,7 @@
 			</m:MaterialColumn>
 			<br />
 		</m:MaterialRow>
+		<m:MaterialTitle title="Color Palette"/>
 		<m:MaterialRow styleName="dynamic-color">		
 			<m:MaterialColumn grid="s12 m6 l4" addStyleNames="center-align">
             <m:MaterialPanel color="red lighten-5"><br /><m:MaterialLabel text="#ffebee red lighten-5" /><br /></m:MaterialPanel>
