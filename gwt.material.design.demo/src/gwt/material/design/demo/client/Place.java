@@ -6,6 +6,7 @@ import gwt.material.design.demo.client.panel.MaterialButtonPanel;
 import gwt.material.design.demo.client.panel.MaterialCard;
 import gwt.material.design.demo.client.panel.MaterialCollapsibles;
 import gwt.material.design.demo.client.panel.MaterialCollectionPanel;
+import gwt.material.design.demo.client.panel.MaterialColors;
 import gwt.material.design.demo.client.panel.MaterialDialogs;
 import gwt.material.design.demo.client.panel.MaterialDropDowns;
 import gwt.material.design.demo.client.panel.MaterialFooterPanel;
@@ -273,7 +274,6 @@ public enum Place {
 			return new MaterialShowcase();
 		}
 	},
-	
 	transition {
 		@Override
 		public String getTitle() {
@@ -288,7 +288,6 @@ public enum Place {
 			return new MaterialTransitions();
 		}
 	},
-	
 	shadow {
 		@Override
 		public String getTitle() {
@@ -303,7 +302,6 @@ public enum Place {
 			return new MaterialShadow();
 		}
 	},
-	
 	theme {
 		@Override
 		public String getTitle() {
@@ -318,7 +316,6 @@ public enum Place {
 			return new MaterialTheme();
 		}
 	},
-	
 	table {
 		@Override
 		public String getTitle() {
@@ -333,78 +330,75 @@ public enum Place {
 			return new MaterialTable();
 		}
 	},
-	
 	helper{
-
 		@Override
 		public String getTitle() {
 			return "Helper";
 		}
-
 		@Override
 		public String getDescription() {
 			return "";
 		}
-
 		@Override
 		public Widget getContent() {
 			return new MaterialHelper();
 		}
-		
 	},
 	gettingStarted{
-
 		@Override
 		public String getTitle() {
 			return "Getting Started";
 		}
-
 		@Override
 		public String getDescription() {
 			return "Learn how to easily start using GWT Material Design in your app.";
 		}
-
 		@Override
 		public Widget getContent() {
 			return new MaterialGettingStarted();
 		}
-		
 	},
 	icons{
-
 		@Override
 		public String getTitle() {
 			return "Icons";
 		}
-
 		@Override
 		public String getDescription() {
 			return "We have included 740 Material Design Icons courtesy of Google. You can download them directly from the Material Design specs. The icon font was made and packed by Bootstrap Material Design.";
 		}
-
 		@Override
 		public Widget getContent() {
 			return new MaterialIcons();
 		}
-		
+	},
+	colors{
+		@Override
+		public String getTitle() {
+			return "Colors";
+		}
+		@Override
+		public String getDescription() {
+			return "";
+		}
+		@Override
+		public Widget getContent() {
+			return new MaterialColors();
+		}
 	},
 	scrollspy{
-
 		@Override
 		public String getTitle() {
 			return "ScrollSpy";
 		}
-
 		@Override
 		public String getDescription() {
 			return "Scrollspy is a jQuery plugin that tracks certain elements and which element the user's screen is currently centered on. Our main demo of this is our table of contents on every documentation page to the right. Clicking on these links will also scroll the page to that element.";
 		}
-
 		@Override
 		public Widget getContent() {
 			return new MaterialScrollspyPanel();
 		}
-		
 	};
 	public abstract String getTitle();
 	public abstract String getDescription();

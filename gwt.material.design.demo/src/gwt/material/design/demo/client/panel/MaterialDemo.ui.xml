@@ -75,6 +75,7 @@
 										<m:ListItem><m:MaterialLink href="#grid" text="Grid" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#helper" text="Helper" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#icons" text="Icons" textColor="blue"/></m:ListItem>
+										<m:ListItem><m:MaterialLink href="#colors" text="Colors" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#shadow" text="Shadow" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#table" text="Table" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#theme" text="Theming" textColor="blue"/></m:ListItem>
