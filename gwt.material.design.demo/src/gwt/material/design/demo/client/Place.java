@@ -1,6 +1,5 @@
 package gwt.material.design.demo.client;
 
-import gwt.material.design.client.ui.MaterialScrollspy;
 import gwt.material.design.demo.client.panel.MaterialBadges;
 import gwt.material.design.demo.client.panel.MaterialButtonPanel;
 import gwt.material.design.demo.client.panel.MaterialCard;

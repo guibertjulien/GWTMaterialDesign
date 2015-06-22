@@ -1,11 +1,13 @@
 package gwt.material.design.demo.client.panel;
 
+import gwt.material.design.client.ui.MaterialLink;
 import gwt.material.design.client.ui.MaterialModal;
 import gwt.material.design.client.ui.MaterialModal.TYPE;
 import gwt.material.design.client.ui.MaterialToast;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
+import com.google.gwt.event.dom.client.ClickHandler;
 import com.google.gwt.uibinder.client.UiBinder;
 import com.google.gwt.uibinder.client.UiHandler;
 import com.google.gwt.user.client.ui.Composite;
@@ -26,6 +28,24 @@ public class MaterialDialogs extends Composite {
 	@UiHandler("btnToast")
 	void onToast(ClickEvent e){
 		MaterialToast.alert("I Love Material Design");
+	}
+	
+	@UiHandler("btnToastAction")
+	void onToastAction(ClickEvent e){
+		MaterialLink link = new MaterialLink("UNDO", "yellow");
+		link.addClickHandler(new ClickHandler() {
+			
+			@Override
+			public void onClick(ClickEvent event) {
+				MaterialToast.alert("UNDO DONE");
+			}
+		});
+		MaterialToast.alert("Item Deleted", link);
+	}
+	
+	@UiHandler("btnToastRounded")
+	void onToastStyle(ClickEvent e){
+		MaterialToast.alert("I Love Material Design", "rounded");
 	}
 	
 	@UiHandler("btnModal")

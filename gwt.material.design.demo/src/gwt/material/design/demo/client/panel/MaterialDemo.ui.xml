@@ -145,7 +145,6 @@
 						
 						<m:MaterialPanel>
 							<m:MaterialButton ui:field="gettingStartedPanel" text="Get Started" size="large" color="blue lighten-2" addStyleNames="{style.btnGettingStarted}"/>
-							<a href="http://www.revenuehits.com/lps/v41/?ref=@RH@RcJeqBZ7K79-rgdLXL7cQQ" target="_blank"><img src="http://revenuehits.com/publishers/media/img/v1/110x32_v1.gif" border="0"/></a>
 						</m:MaterialPanel>
 					</m:child>
 						

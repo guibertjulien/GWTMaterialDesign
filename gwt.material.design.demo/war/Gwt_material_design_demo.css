@@ -23,6 +23,14 @@ pre{
 	color: #999;
 }
 
+/** ADS **/
+#rhfrm_39623_58601_3{
+	position: absolute;
+ 	top: 10px;
+  	z-index: 9999;
+  	right: 30px;
+}
+
 /** Example rules used by the template application (remove for your app) */
 h1 {
   font-size: 2em;

@@ -12,7 +12,27 @@
 		<m:MaterialTitle title="Toast" description="GWT Material provides an easy way for you to send unobtrusive alerts to your users through toasts. These toasts are also placed and sized responsively, try it out by clicking the button below on different device sizes."/>
 		<m:MaterialButton text="Toast Me" waves="light" ui:field="btnToast" color="blue" addStyleNames="{style.btn}"/>
 		<pre>
-MaterialToast.alert(<span class="tag">"I Love Material Design"</span>);
+MaterialToast.alert("I Love Material Design");
+		</pre>
+		
+		<m:MaterialTitle title="Toast with Action" description="rovides an advance toast with any widget (MaterialLink) for declaration of actions when toast is applied."/>
+		<m:MaterialButton text="Toast Me" waves="light" ui:field="btnToastAction" color="blue" addStyleNames="{style.btn}"/>
+		<pre>
+MaterialLink link = new MaterialLink("UNDO", "yellow");
+link.addClickHandler(new ClickHandler() {
+			
+	@Override
+	public void onClick(ClickEvent event) {
+		MaterialToast.alert("UNDO DONE");
+	}
+});
+MaterialToast.alert("Item Deleted", link);
+		</pre>
+		
+		<m:MaterialTitle title="Styling Toasts" description="We've added the ability to customize your toasts easily. You can pass in classes as an optional parameter into the toast function. We've added a rounded class for you, but you can create your own CSS classes and apply them to toasts. Checkout out our full example below."/>
+		<m:MaterialButton text="Toast Me" waves="light" ui:field="btnToastRounded" color="blue" addStyleNames="{style.btn}"/>
+		<pre>
+MaterialToast.alert("I Love Material Design", "rounded");
 		</pre>
 		
 		<m:MaterialTitle title="Modal" description="Use a modal for dialog boxes, confirmation messages, or other content that can be called up. In order for the modal to work you have to add the Modal ID to the link of the trigger. "/>
