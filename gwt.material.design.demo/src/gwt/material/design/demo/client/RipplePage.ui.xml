@@ -1,0 +1,13 @@
+<!DOCTYPE ui:UiBinder SYSTEM "http://dl.google.com/gwt/DTD/xhtml.ent">
+<ui:UiBinder xmlns:ui="urn:ui:com.google.gwt.uibinder"
+	xmlns:g="urn:import:com.google.gwt.user.client.ui">
+	<ui:style>
+		.panel{
+			width: 300px;
+			height: 300px;
+		}
+	</ui:style>
+	<g:HTMLPanel addStyleNames="card waves-effect waves-red {style.panel}">
+		
+	</g:HTMLPanel>
+</ui:UiBinder> 
