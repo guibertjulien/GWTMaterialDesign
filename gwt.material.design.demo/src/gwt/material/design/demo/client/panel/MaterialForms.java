@@ -16,7 +16,7 @@ public class MaterialForms extends Composite {
 	interface MaterialFormsUiBinder extends UiBinder<Widget, MaterialForms> {
 	}
 	
-
+	
 	public MaterialForms() {
 		initWidget(uiBinder.createAndBindUi(this));
 	}

@@ -65,6 +65,11 @@ public class MaterialDemo extends Composite {
 		changeNav(Place.gettingstarted);
 	}
 	
+	@UiHandler("btnBounty")
+	void onBounty(ClickEvent e){
+		Window.open("https://www.bountysource.com/teams/gwtmaterialdesign", "", "");
+	}
+	
 	private void changeNav(Place place){
 		navBar.hide();
 		Window.scrollTo(0, 0);

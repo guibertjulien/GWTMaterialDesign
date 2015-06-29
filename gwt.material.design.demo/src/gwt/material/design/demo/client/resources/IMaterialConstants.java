@@ -11,4 +11,6 @@ public interface IMaterialConstants {
 	public static final String GITHUB_LINK = "https://github.com/GwtMaterialDesign/gwt-material";
 	public static final String TEMPLATE_STARTER_LINK = "http://gwt-material-starter.appspot.com";
 	public static final String TEMPLATE_STARTER_SOURCE = "http://gwt-material.appspot.com/bin/HomePanel.ui.xml";
+	public static final String LINK_BOUNTYSOURCE = "https://www.bountysource.com/teams/gwtmaterialdesign";
+	public static final String LINK_CHARTS = "http://gwt-charts.googlecode.com/svn/download/gwt-charts-0.9.9.jar";
 }

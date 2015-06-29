@@ -123,7 +123,7 @@
 		
 		
 		<m:MaterialTitle title="Date Picker"  description="Material Datepicker"/>
-		<m:MaterialDatePicker placeholder="Date"/>
+		<m:MaterialDatePicker ui:field="dp" placeholder="Date"/>
 		
 		<pre>
 <span class="tag">&lt;m:MaterialDatePicker placeholder="Date"</span> <span class="tag">/></span>

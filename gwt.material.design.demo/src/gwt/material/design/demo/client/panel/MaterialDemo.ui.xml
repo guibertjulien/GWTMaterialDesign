@@ -37,14 +37,14 @@
 		}
 	</ui:style>	
 	<g:HTMLPanel >
-			<m:MaterialNavBar ui:field="navBar" sideBar="fixed" sideBarWidth="250" color="blue darken-1"  align="right" >
+			<m:MaterialNavBar ui:field="navBar" wave="default" sideBar="fixed" sideBarWidth="250" color="blue darken-1"  align="right" >
 				<m:sidebaritem><m:MaterialImage resource="{res.ic_gwt_logo}" addStyleNames="{style.logo}"/></m:sidebaritem>
 				<m:sidebaritem>
 					<m:MaterialLink href="#about" iconPosition="left" icon="mdi-action-info-outline" text="About" textColor="blue"  />
 				</m:sidebaritem>
 				<m:sidebaritem>
 					<m:MaterialLink href="#gettingStarted" iconPosition="left" icon="mdi-file-cloud-download" text="Getting Started" textColor="blue"  >
-						<m:badge><m:MaterialBadge text="1.3.2" color="blue"/></m:badge>
+						<m:badge><m:MaterialBadge text="1.3.3" color="blue"/></m:badge>
 					</m:MaterialLink>
 				</m:sidebaritem>
 				<m:sidebaritem>
@@ -54,17 +54,13 @@
 								<m:header><m:MaterialLink  text="Components" icon="mdi-action-view-quilt" textColor="blue"/></m:header>
 								<m:content>
 									<m:UnorderedList>
-										<m:ListItem>
-											<m:MaterialLink href="#badges" text="Badges" textColor="blue">
-												<m:badge><m:MaterialBadge text="Update" color="blue"/></m:badge>
-											</m:MaterialLink>
-										</m:ListItem>
+										<m:ListItem><m:MaterialLink href="#badges" text="Badges" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#buttons" text="Buttons" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#cards" text="Cards" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#collapsibles" text="Collapsible" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#collections" text="Collections" textColor="blue"/></m:ListItem>
 										<m:ListItem>
-											<m:MaterialLink href="#dialogs" text="Dialogs" textColor="blue">
+											<m:MaterialLink href="#dialogs" text="Dialogs" textColor="blue" >
 												<m:badge><m:MaterialBadge text="Update" color="blue"/></m:badge>
 											</m:MaterialLink>
 										</m:ListItem>
@@ -72,17 +68,13 @@
 										<m:ListItem><m:MaterialLink href="#forms" text="Forms" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#footer" text="Footer" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#loaders" text="Loaders" textColor="blue"/></m:ListItem>
-										<m:ListItem><m:MaterialLink href="#media" text="Media" textColor="blue"/></m:ListItem>
 										<m:ListItem>
-											<m:MaterialLink href="#navigations" text="NavBar" textColor="blue">
+											<m:MaterialLink href="#media" text="Media" textColor="blue">
 												<m:badge><m:MaterialBadge text="Update" color="blue"/></m:badge>
 											</m:MaterialLink>
 										</m:ListItem>
-										<m:ListItem>
-											<m:MaterialLink href="#scrollspy" text="Scrollspy" textColor="blue">
-												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
-											</m:MaterialLink>
-										</m:ListItem>
+										<m:ListItem><m:MaterialLink href="#navigations" text="NavBar" textColor="blue" /></m:ListItem>
+										<m:ListItem><m:MaterialLink href="#scrollspy" text="Scrollspy" textColor="blue" /></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#tabs" text="Tabs" textColor="blue"/></m:ListItem>
 										<m:ListItem><m:MaterialLink href="#transition" text="Transitions" textColor="blue"/></m:ListItem>
 									</m:UnorderedList>
@@ -96,35 +88,23 @@
 									<m:UnorderedList>
 										
 										<m:ListItem>
-											<m:MaterialLink href="#colors" text="Colors" textColor="blue">
-												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
-											</m:MaterialLink>
+											<m:MaterialLink href="#colors" text="Colors" textColor="blue"/>
 										</m:ListItem>
 										<m:ListItem><m:MaterialLink href="#grid" text="Grid" textColor="blue"/></m:ListItem>
 										<m:ListItem>
-											<m:MaterialLink href="#helper" text="Helper" textColor="blue">
-												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
-											</m:MaterialLink>
+											<m:MaterialLink href="#helper" text="Helper" textColor="blue"/>
 										</m:ListItem>
 										<m:ListItem>
-											<m:MaterialLink href="#icons" text="Icons" textColor="blue">
-												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
-											</m:MaterialLink>
+											<m:MaterialLink href="#icons" text="Icons" textColor="blue"/>
 										</m:ListItem>
 										<m:ListItem>
-											<m:MaterialLink href="#shadow" text="Shadow" textColor="blue">
-												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
-											</m:MaterialLink>
+											<m:MaterialLink href="#shadow" text="Shadow" textColor="blue"/>
 										</m:ListItem>
 										<m:ListItem>
-											<m:MaterialLink href="#table" text="Table" textColor="blue">
-												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
-											</m:MaterialLink>
+											<m:MaterialLink href="#table" text="Table" textColor="blue"/>
 										</m:ListItem>
 										<m:ListItem>
-											<m:MaterialLink href="#theme" text="Theming" textColor="blue">
-												<m:badge><m:MaterialBadge text="New" color="green"/></m:badge>
-											</m:MaterialLink>
+											<m:MaterialLink href="#theme" text="Theming" textColor="blue"/>
 										</m:ListItem>
 									</m:UnorderedList>
 								</m:content>
@@ -135,6 +115,11 @@
 				
 				
 				<m:sidebaritem><m:MaterialLink href="#showcase" iconPosition="left" icon="mdi-action-polymer" text="Showcase" textColor="blue"/></m:sidebaritem>
+				<m:sidebaritem>
+					<m:MaterialLink href="#charts" iconPosition="left" icon="mdi-editor-insert-chart" text="Material Charts" textColor="blue">
+						<m:badge><m:MaterialBadge color="green" text="New"/></m:badge>
+					</m:MaterialLink>
+				</m:sidebaritem>
 				
 				
 				
@@ -184,7 +169,8 @@
 							<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!"/>
 							<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1"/>
 							</form>
-
+							<m:MaterialLabel textColor="white" text="For bug bounties:"/>
+							<m:MaterialButton ui:field="btnBounty" text="Bountysource" color="green" waves="light"/>
 														
 						</m:MaterialColumn>
 						<m:MaterialColumn grid="s12 m4 l4">

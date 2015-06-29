@@ -16,7 +16,7 @@
 			<m:nav><m:MaterialLink   icon="mdi-navigation-more-vert"  textColor="brown"/></m:nav>
 		</m:MaterialNavBar>
 		
-		<m:MaterialParallax resource="{res.parallax1}" height="400">
+		<m:MaterialParallax url="http://mayastepien.nl/googlecalendar/google-skiing.jpg" height="400">
 			<m:content>
 				<m:MaterialPanel>
 					<m:MaterialTitle title="Parallax" description="Parallax is an effect where the background content or
@@ -48,7 +48,7 @@
 		</m:MaterialParallax>
 		
 		
-		<m:MaterialParallax resource="{res.parallax2}" >
+		<m:MaterialParallax url="http://mayastepien.nl/googlecalendar/google-drinks.jpg" height="400">
 			<m:content>
 				<m:MaterialTitle title="Parallax" description="Parallax is an effect where the background content or
 					image in this case, is moved at a different speed than the
@@ -56,7 +56,7 @@
 			</m:content>
 		</m:MaterialParallax>
 		
-		<m:MaterialParallax resource="{res.parallax3}" />
+		<m:MaterialParallax url="http://mayastepien.nl/googlecalendar/google-coffee.jpg" height="400"/>
 		
 		
 

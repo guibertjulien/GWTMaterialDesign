@@ -3,6 +3,7 @@ package gwt.material.design.demo.client;
 import gwt.material.design.demo.client.panel.MaterialBadges;
 import gwt.material.design.demo.client.panel.MaterialButtonPanel;
 import gwt.material.design.demo.client.panel.MaterialCard;
+import gwt.material.design.demo.client.panel.MaterialCharts;
 import gwt.material.design.demo.client.panel.MaterialCollapsibles;
 import gwt.material.design.demo.client.panel.MaterialCollectionPanel;
 import gwt.material.design.demo.client.panel.MaterialColors;
@@ -397,6 +398,20 @@ public enum Place {
 		@Override
 		public Widget getContent() {
 			return new MaterialScrollspyPanel();
+		}
+	},
+	charts{
+		@Override
+		public String getTitle() {
+			return "Material Charts";
+		}
+		@Override
+		public String getDescription() {
+			return "Using GWT Charts Library , we tried to do couple of Material Design Charts based on Design Options on each respective chart libraries.";
+		}
+		@Override
+		public Widget getContent() {
+			return new MaterialCharts();
 		}
 	};
 	public abstract String getTitle();
