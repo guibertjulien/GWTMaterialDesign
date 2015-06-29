@@ -123,11 +123,18 @@
 		
 		
 		<m:MaterialTitle title="Date Picker"  description="Material Datepicker"/>
-		<m:MaterialDatePicker ui:field="dp" placeholder="Date"/>
+		<m:MaterialDatePicker ui:field="dp" placeholder="Date" />
 		
 		<pre>
 <span class="tag">&lt;m:MaterialDatePicker placeholder="Date"</span> <span class="tag">/></span>
 		</pre>
+		
+		<m:MaterialTitle title="Date Picker Selection Types" description="You can set easily the selection type of your datepicker by adding an attribute, selectionType='YEAR'. Here is the available formats [DAY, MONTH_DAY, YEAR_MONTH_DAY, YEAR]"/>
+		<m:MaterialDatePicker  placeholder="Date" selectionType="YEAR"/>
+		<pre>
+<span class="tag">&lt;m:MaterialDatePicker placeholder="Date" selectionType="YEAR"</span> <span class="tag">/></span>
+		</pre>
+		
 		
 		
 	</g:HTMLPanel>
