@@ -95,6 +95,7 @@
 		<m:MaterialTitle title="Check Box" description="Checkboxes"/>
 		<m:MaterialCheckBox text="Blue" value="true" addStyleNames="{style.block}"/>
 		<m:MaterialCheckBox text="Red" addStyleNames="{style.block}"/>
+		<m:MaterialCheckBox text="Red" type="filled" addStyleNames="{style.block}"/>
 		<m:MaterialCheckBox text="Green" value="true" addStyleNames="{style.block}" disabled="true"/>
 		<m:MaterialCheckBox text="Brown" addStyleNames="{style.block}" disabled="true"/>
 		

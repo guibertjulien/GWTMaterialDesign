@@ -20,4 +20,5 @@ public interface MaterialResources extends ClientBundle {
 	ImageResource parallax3();
 	ImageResource ic_theme();
 	ImageResource starter();
+	ImageResource ic_splash();
 }
